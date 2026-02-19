@@ -46,3 +46,6 @@ setTimeout(() => {
 setTimeout(() => {
     listAllFiles();
 }, 3000);
+
+import { showMode } from './mode-test.js';
+showMode();

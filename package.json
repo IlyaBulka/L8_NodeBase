@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "build": "node -r dotenv/config index.js dotenv_config_path=.env.production",
+    "start": "nodemon -r dotenv/config index.js dotenv_config_path=.env.development",
+    "deploy": "node -r dotenv/config index.js dotenv_config_path=.env.domain"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,10 @@
   },
   "homepage": "https://github.com/IlyaBulka/L8_NodeBase#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
