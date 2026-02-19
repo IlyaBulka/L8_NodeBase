@@ -1,0 +1,22 @@
+{
+  "name": "l8_nodebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaBulka/L8_NodeBase.git"
+  },
+  "keywords": [],
+  "author": "Bulka Ilya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaBulka/L8_NodeBase/issues"
+  },
+  "homepage": "https://github.com/IlyaBulka/L8_NodeBase#readme"
+}
