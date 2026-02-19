@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/IlyaBulka/L8_NodeBase/issues"
   },
-  "homepage": "https://github.com/IlyaBulka/L8_NodeBase#readme"
+  "homepage": "https://github.com/IlyaBulka/L8_NodeBase#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
 }
