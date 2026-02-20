@@ -181,9 +181,6 @@ export function listAllFiles() {
     console.log(`Всего файлов: ${files.length}`);
 }
 
-/**
- * Удаление всех файлов и папок, кроме служебных
- */
 export function cleanProject() {
     const files = fs.readdirSync(__dirname);
     
